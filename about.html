@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>SMART SPACE</title>
+  <meta name="author" content="Alvaro Trigo Lopez" />
+  <meta name="description" content="fullPage full-screen normal scrolling with autoScrolling." />
+  <meta name="keywords" content="fullpage,jquery,demo,screen,fullscreen,normal scroll,autoscrolling, scroll" />
+  <meta name="Resource-type" content="Document" />
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div id="about">
+    <div class="section" id="sec1">
+      <div class="intro">
+          <div class="ver"></div>
+          <h2>ABOUT</h2>
+          <div class="intro-about">
+            <p>SMART<br>SPACE</p>
+            <p>똑똑한<br>공간</p>
+            <img src="./img/9.jpg" alt="단체 사진">
+          </div>
+      </div>
+    </div>
+    <div class="section" id="sec2">
+      <div class="intro">
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./js/all.js"></script>
+  <script type="text/javascript" src="./js/fullpage.js"></script>
+  <script type="text/javascript">
+    var myFullpage = new fullpage('#about', {
+      anchors: ['about', 'intro'],
+      sectionsColor: ['#fff', '#fafafa'],
+      autoScrolling: false,
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>SMART SPACE</title>
+  <meta name="author" content="Alvaro Trigo Lopez" />
+  <meta name="description" content="fullPage full-screen normal scrolling with autoScrolling." />
+  <meta name="keywords" content="fullpage,jquery,demo,screen,fullscreen,normal scroll,autoscrolling, scroll" />
+  <meta name="Resource-type" content="Document" />
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div id="index">
+    <div class="section" id="sec1">
+      <div class="intro">
+        <h1>SMART SPACE</h1>
+      </div>
+    </div>
+    <div class="section" id="sec2">
+      <div class="intro">
+        <div class="ver"></div>
+        <h2>HELLO</h2>
+        <p>
+          안녕하세요, 공간정보 동아리 'SMART SPACE' 입니다.<br>
+          저는 섬세하고 꼼꼼하게 웹을 디자인하며, 뛰어난 인터렉션을 지닌 웹페이지를 구현할 수 있습니다.<br>
+          UI. UX의 중요성을 인지하고 있으며, 보다 많은 사용자를 만족시키기 위해 오늘도 궁리 중입니다.
+        </p><br>
+        <p>
+          맡은 일은 전문성과 사랑을 담아 작업하고 있습니다.<br>
+          저와 함께 웹페이지를 만들고 싶으시다면 언제든 연락 주세요 : )
+        </p>
+        <div class="hor"></div>
+        <p class="q">'SMART SPACE' 대해 궁금하신가요 ? 
+          <a href="about.html">
+              <i class="fas fa-arrow-right"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./js/all.js"></script>
+  <script type="text/javascript" src="./js/fullpage.js"></script>
+  <script type="text/javascript">
+    var myFullpage = new fullpage('#index', {
+      anchors: ['home', 'intro'],
+      sectionsColor: ['#fff', '#fafafa'],
+      autoScrolling: false,
+    });
+  </script>
+</body>
+
+</html>
