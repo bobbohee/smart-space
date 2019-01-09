@@ -9,88 +9,52 @@
   <meta name="Resource-type" content="Document" />
   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
   <link rel="stylesheet" href="./css/all.css">
-  <link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
   <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/all.js"></script>
+  <script src="./js/script.js"></script>
+  <script>
+    /* 햄버거 메뉴 사이드 */
+    function openSide() {
+      $('#side').css('width', '100%');
+      $('.menu-trigger').attr("onclick", "closeSide()");
+    }
+    function closeSide() {
+      $('#side').css('width', '0');
+      $('.menu-trigger').attr("onclick", "openSide()");
+    }
+  </script>
 </head>
 <body>
   <div id="about">
-    <div class="section" id="sec1">
-        <a href="index.html" class="logo">SS</a>
-      <div class="intro">
-          <div class="ver"></div>
-          <h2>ABOUT</h2>
-          <div class="intro-table">
-            <div class="intro-cell">
-              <div class="intro-about">
-                <p>SMART<br>SPACE</p>
-                <p>똑똑한<br>공간</p>
-                <img src="./img/team.jpg" alt="단체 사진">
-              </div>
-            </div>
-          </div>
+    <div class="fixed">
+      <div class="logo">
+        <h1>SS</h1>
       </div>
+      <a href="#" class="menu-trigger" onclick='openSide()'>
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
     </div>
-    <div class="section" id="sec2">
-      <div class="intro">
-      </div>
-    </div>
-    <div class="section" id="sec3">
-      <div class="intro">
-        <div class="member-bg">
-          <div class="member">
-            <ul>
-              <li>
-                누적 활동 멤버<br><br>
-                <span>80</span>
-              </li>
-              <li>
-                현재 활동 멤버<br><br>
-                <span>15</span>
-              </li>
-              <li>
-                1년 활동 시간<br><br>
-                <span>684</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="play-bg">
-          <div class="play">
-            <ul>
-              <li>
-                <img src="./img/9.jpg" alt="">
-                <p class="play-title">협업하는 팀 프로젝트</p>
-                <p>친구들 . 선배들과 협업하는 프로젝트를<br>
-                   통해 실무에 가까운 경험을 쌓습니다.</p>
-              </li>
-              <li>
-                <img src="./img/9.jpg" alt="">
-                <p class="play-title">자기계발 및 지식 공유</p>
-                <p>주 4회 하루 평균 3시간 진행되는<br>
-                  동아리를 통해 실력 향상을 도모합니다.<br>
-              </li>
-              <li>
-                <img src="./img/9.jpg" alt="">
-                <p class="play-title">활발한 선/후배 커뮤니티</p>
-                <p>같은 전공을 가진 동아리로서,<br>
-                  문제를 쉽게 해결할 수 있고,
-                  IT업계에 진출한 선배님들의 조언을 얻을 수 있습니다.<br>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <div id="side">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">INTRODUCE</a>
     </div>
   </div>
-  <script type="text/javascript" src="./js/all.js"></script>
-  <script type="text/javascript" src="./js/fullpage.js"></script>
-  <script type="text/javascript">
-    var myFullpage = new fullpage('#about', {
-      anchors: ['about1', 'about2', 'about3'],
-      sectionsColor: ['#fafafa', '#fff', '#2f2f2f'],
-      autoScrolling: true,
+  <script>
+    $(function () {
+      /* 햄버거 메뉴 */
+      var burger = $('.menu-trigger');
+      burger.each(function (index) {
+        var $this = $(this);
+        $this.on('click', function (e) {
+          e.preventDefault();
+          $(this).toggleClass('active-' + (index + 1));
+        })
+      });
     });
   </script>
 </body>
-
 </html>
