@@ -194,56 +194,84 @@
   font-weight: bold;
 }
 
-#introduce #sec1 .intro {
+#profile #sec1 .intro {
   width: 100%;
   height: 200px;
   position: relative;
 }
-#introduce #sec1 .ver {
+#profile #sec1 .ver {
   width: 5px;
   height: 75px;
   border-radius: 20px;
   background-color: #ffdd00;
   margin: 0 auto;
 }
-#introduce #sec1 h2 {
+#profile #sec1 h2 {
   text-align: center;
   font-size: 60px;
   color: #ffdd00;
   margin: 20px 0;
 }
-#introduce #sec2 {
+#profile #sec2 {
   width: 100%;
   height: 300px;
 }
-#introduce #sec2 .profile-17 {
+#profile #sec2 .profile-17 {
   width: 100%;
   height: 300px;
   background-color: #f2f2f2;
 }
-#introduce #sec2 .profile {
+#profile #sec2 .profile-18 {
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+}
+#profile #sec2 ul {
   width: 1200px;
   height: 300px;
   margin: 0 auto;
 }
-#introduce #sec2 .profile li {
+#profile #sec2 ul li {
   width: 150px;
   height: 230px;
   margin: 35px 25px;
   float: left;
   list-style: none;
 }
-#introduce #sec2 .profile li img {
+#profile #sec2 ul li a {
+  display: inline-block;
   width: 150px;
   height: 150px;
-  border-radius: 100px;
+  position: relative;
 }
-#introduce #sec2 .profile li p.name {
+#profile #sec2 ul li a div {
+  width: 150px;
+  height: 150px;
+  display: none;
+  transition: all 0.5s;
+}
+#profile #sec2 ul li a:hover div {
+  display: inline-block;
+  background-color: #000;
+  opacity: 0.75;
+  position: absolute;
+}
+#profile #sec2 ul li a:hover div img {
+  width: 75px;
+  height: 75px;
+  margin: 37.5px;
+}
+#profile #sec2 ul li a img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+#profile #sec2 ul li p.name {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
   margin: 17.5px 0;
 }
-#introduce #sec2 .profile li p.lang {
+#profile #sec2 ul li p.lang {
   text-align: center;
 }
