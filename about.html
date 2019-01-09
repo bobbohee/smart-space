@@ -1,27 +1,26 @@
+<!-- HTML5 -->
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" dir="ltr">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SMART SPACE</title>
-  <meta name="author" content="Alvaro Trigo Lopez" />
-  <meta name="description" content="fullPage full-screen normal scrolling with autoScrolling." />
-  <meta name="keywords" content="fullpage,jquery,demo,screen,fullscreen,normal scroll,autoscrolling, scroll" />
-  <meta name="Resource-type" content="Document" />
+  <link rel="icon" type="image/jpg" href="./img/favicon.jpg">
   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
   <link rel="stylesheet" href="./css/all.css">
   <link rel="stylesheet" href="./css/style.css">
   <script src="./js/jquery-3.3.1.min.js"></script>
   <script src="./js/all.js"></script>
-  <script src="./js/script.js"></script>
   <script>
     /* 햄버거 메뉴 사이드 */
     function openSide() {
       $('#side').css('width', '100%');
-      $('.menu-trigger').attr("onclick", "closeSide()");
+      $('.menu-trigger').attr('onclick', 'closeSide()');
     }
     function closeSide() {
       $('#side').css('width', '0');
-      $('.menu-trigger').attr("onclick", "openSide()");
+      $('.menu-trigger').attr('onclick', 'openSide()');
     }
   </script>
 </head>
@@ -31,7 +30,7 @@
       <div class="logo">
         <h1>SS</h1>
       </div>
-      <a href="#" class="menu-trigger" onclick='openSide()'>
+      <a href="#" class="menu-trigger" onclick="openSide()">
         <span></span>
         <span></span>
         <span></span>
