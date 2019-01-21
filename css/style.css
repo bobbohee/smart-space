@@ -38,7 +38,7 @@
   height: 5px;
   border-radius: 20px;
   background-color: #888;
-  margin: 4.5% auto;
+  margin: 4% auto 3.5% auto;
 }
 #index #sec2 h2 {
   text-align: center;
@@ -50,7 +50,11 @@
   text-align: center;
   line-height: 35px;
   font-size: 18px;
-  color: #3f3f3f;
+  color: #333;
+  letter-spacing: 1px;
+}
+#index #sec2 p span {
+  font-weight: bold;
 }
 #index #sec2 p.q {
   color: #2e2e2e;
@@ -181,6 +185,44 @@
   opacity: 0.7;
   font-size: 22px;
   font-weight: normal;
+}
+#about #sec5 {
+  width: 100%;
+  height: 500px;
+  background-color: #f2f2f2;
+}
+#about #sec5 ul {
+  width: 1050px;
+  height: 500px;
+  margin: 0 auto;
+}
+#about #sec5 ul li {
+  width: 350px;
+  height: 500px;
+  list-style: none;
+  float: left;
+  padding: 95px 50px;
+  text-align: center;
+}
+#about #sec5 ul li div {
+  width: 150px;
+  height: 150px;
+  border: 1.5px solid #333;
+  border-radius: 100px;
+  padding: 20px;
+  margin: 0 50px;
+}
+#about #sec5 ul li:last-child div {
+  padding: 31px;
+}
+#about #sec5 ul li h3 {
+  margin: 30px 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+#about #sec5 ul li p {
+  font-size: 17px;
+  line-height: 28px;
 }
 
 /* work */

@@ -6,13 +6,29 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SMART SPACE</title>
-  <link rel="icon" type="image/jpg" href="./img/favicon.jpg">
+  <link rel="icon" type="image/jpg" href="img/favicon.jpg">
   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/fullpage.js"></script>
+  <script src="js/script.js"></script>
 </head>
 <body>
   <div id="index">
+    <div class="fixed">
+      <a href="#" class="menu-trigger" onclick="openSide()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+    <div id="side">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="work.html">WORK</a>
+      <a href="profile.html">PROFILE</a>
+    </div>
     <div class="section" id="sec1">
       <div class="intro">
         <h1>SMART SPACE</h1>
@@ -23,13 +39,14 @@
         <div class="ver"></div>
         <h2>HELLO</h2>
         <p>
-          안녕하세요, 공간정보 동아리 'SMART SPACE' 입니다.<br>
-          저는 섬세하고 꼼꼼하게 웹을 디자인하며, 뛰어난 인터렉션을 지닌 웹페이지를 구현할 수 있습니다.<br>
-          UI. UX의 중요성을 인지하고 있으며, 보다 많은 사용자를 만족시키기 위해 오늘도 궁리 중입니다.
+          안녕하세요, 공간정보 동아리 '<span>SMART SPACE</span>' 입니다.<br>
+          저희는 서울디지텍고등학교에 재학중인 학생들로 구성된 전공동아리 입니다.<br>
+          동아리에서는 GPS와 공간정보 오픈 소스, JAVA, PHP, JSP, Python, Android 등의<br>
+          언어를 활용하여 공간정보융복합 앱 & 웹 서비스를 개발하고 있습니다.
         </p><br>
         <p>
-          맡은 일은 전문성과 사랑을 담아 작업하고 있습니다.<br>
-          저와 함께 웹페이지를 만들고 싶으시다면 언제든 연락 주세요 : )
+          SMART SPACE의 모집 기간은 매년 3월입니다.<br> 
+          열정과 잠재력이 넘치는 미래 개발자를 기다리고 있습니다. : )<br>
         </p>
         <div class="hor"></div>
         <p class="q">'SMART SPACE' 대해 더 알고싶으신가요 ?
@@ -40,8 +57,6 @@
       </div>
     </div>
   </div>
-  <script type="text/javascript" src="./js/all.js"></script>
-  <script type="text/javascript" src="./js/fullpage.js"></script>
   <script type="text/javascript">
     var myFullpage = new fullpage('#index', {
       anchors: ['home', 'intro'],
@@ -50,5 +65,4 @@
     });
   </script>
 </body>
-
 </html>
