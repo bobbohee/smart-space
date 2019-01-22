@@ -1,16 +1,16 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Nanum Gothic', sans-serif;
   box-sizing: border-box;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 .logo {
-  text-decoration: none;
-  color: #5099e2;
-  font-size: 40px;
   position: fixed;
   top: 30px; left: 30px;
+  color: #5099e2;
+  font-size: 40px;
   font-weight: bold;
+  text-decoration: none;
 }
 #index #sec1 {
   background-color: rgba(36,33,33,0.46);
@@ -18,6 +18,7 @@
 #index #sec1 h1 {
   color: #5099e2;
   font-size: 110px;
+  font-weight: bold;
   text-align: center;
   margin-top: -60px;
 }
@@ -28,10 +29,10 @@
 }
 #index #sec2 .ver {
   width: 7.5px;
-  border-radius: 20px;
   height: 110px;
-  background-color: #ffdd00;
   margin: 0 auto;
+  border-radius: 20px;
+  background-color: #ffdd00;
 }
 #index #sec2 .hor {
   width: 100px;
@@ -41,16 +42,17 @@
   margin: 4% auto 3.5% auto;
 }
 #index #sec2 h2 {
-  text-align: center;
-  font-size: 85px;
   color: #ffdd00;
+  font-size: 85px;
+  font-weight: bold;
+  text-align: center;
   margin: 4% 0 4% 0;
 }
 #index #sec2 p {
-  text-align: center;
-  line-height: 35px;
-  font-size: 18px;
   color: #333;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: center;
   letter-spacing: 1px;
 }
 #index #sec2 p span {
@@ -63,19 +65,19 @@
   display: inline-block;
   width: 50px;
   height: 50px;
-  background-color: #a7ccf1;
-  border-radius: 100px;
-  text-decoration: none;
   color: #fff;
   font-weight: bold;
   line-height: 50px;
-  margin-left: 15px;
   padding: 5px;
+  margin-left: 15px;
   transition: all 0.5s;
+  text-decoration: none;
+  border-radius: 100px;
+  background-color: #7bb3ea;
 }
 #index #sec2 p.q a:hover {
-  background-color: #91bfee;
   transform: scale(1.1, 1.1);
+  background-color: #65a6e6;
 }
 #index #sec2 p.q a img {
   width: 22px;
@@ -92,14 +94,15 @@
 #about #sec1 .ver {
   width: 6px;
   height: 75px;
+  margin: 0 auto;
   border-radius: 20px;
   background-color: #ffdd00;
-  margin: 0 auto;
 }
 #about #sec1 h2 {
-  text-align: center;
-  font-size: 60px;
   color: #ffdd00;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
   margin: 20px 0;
 }
 #about #sec2 {
@@ -113,18 +116,18 @@
   margin: 0 auto;
 }
 #about .team p {
+  float: left;
   width: 200px;
   height: 100%;
-  float: left;
   font-size: 36px;
   text-align: right;
   line-height: 80px;
   padding: 190px 80px 190px 0;
 }
 #about .team img {
+  float: left;
   width: 700px;
   height: 100%;
-  float: left;
 }
 #about #sec3 {
   width: 100%;
@@ -132,19 +135,19 @@
   background-color: #f2f2f2;
 }
 #about #sec4 {
+  position: relative;
   width: 100%;
   height: 300px;
   overflow: hidden;
-  position: relative;
 }
 #about #sec4 .sec4-bg {
   position: absolute;
   top: 0; left: 0;
+  width: 100%;
+  height: 100%;
   background-image: url('../img/backgroud.jpg');
   background-position: center center;
   background-size: 100%;
-  width: 100%;
-  height: 100%;
 }
 #about #sec4 .sec4-black {
   position: absolute;
@@ -152,23 +155,23 @@
   z-index: 5;
   width: 100%;
   height: 100%;
-  background-color: #000;
   opacity: 0.75;
+  background-color: #000;
 }
 #about #sec4 ul {
-  margin: 90px auto;
   position: relative;
   z-index: 10;
   width: 1200px;
   height: 120px;
+  margin: 90px auto;
 }
 #about #sec4 ul li {
   width: 400px;
   height: 100%;
   float: left;
   list-style: none;
-  line-height: 60px;
   text-align: center;
+  line-height: 60px;
   border-right: 1.5px solid rgba(255, 255, 255, 0.7);
 }
 #about #sec4 ul li:last-child {
@@ -176,9 +179,9 @@
 }
 #about #sec4 ul li p {
   opacity: 1;
+  color: #fff;
   font-size: 34px;
   font-weight: bold;
-  color: #fff;
   letter-spacing: 5px;
 }
 #about #sec4 ul li p.title {
@@ -197,20 +200,20 @@
   margin: 0 auto;
 }
 #about #sec5 ul li {
+  float: left;
   width: 350px;
   height: 500px;
   list-style: none;
-  float: left;
   padding: 95px 50px;
   text-align: center;
 }
 #about #sec5 ul li div {
   width: 150px;
   height: 150px;
-  border: 1.5px solid #333;
-  border-radius: 100px;
   padding: 20px;
   margin: 0 50px;
+  border-radius: 100px;
+  border: 1.5px solid #333;
 }
 #about #sec5 ul li:last-child div {
   padding: 31px;
@@ -218,11 +221,32 @@
 #about #sec5 ul li h3 {
   margin: 30px 0;
   font-size: 20px;
+  font-weight: bold;
   letter-spacing: 1px;
 }
 #about #sec5 ul li p {
   font-size: 17px;
   line-height: 28px;
+}
+#about #sec6 {
+  width: 100%;
+  height: 500px;
+  padding: 60px 0;
+}
+#about #sec6 .table {
+  width: 70%;
+  max-height: 500px;
+  margin: 0 auto;
+}
+#about #sec6 .table caption {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  caption-side: top;
+}
+#about #sec6 .table thead {
+  background-color: #5099e250;
 }
 
 /* work */
@@ -234,14 +258,15 @@
 #work #sec1 .ver {
   width: 6px;
   height: 75px;
+  margin: 0 auto;
   border-radius: 20px;
   background-color: #ffdd00;
-  margin: 0 auto;
 }
 #work #sec1 h2 {
-  text-align: center;
-  font-size: 60px;
   color: #ffdd00;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
   margin: 20px 0;
 }
 
@@ -254,14 +279,15 @@
 #profile #sec1 .ver {
   width: 6px;
   height: 75px;
+  margin: 0 auto;
   border-radius: 20px;
   background-color: #ffdd00;
-  margin: 0 auto;
 }
 #profile #sec1 h2 {
-  text-align: center;
-  font-size: 60px;
   color: #ffdd00;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
   margin: 20px 0;
 }
 #profile #sec2 {
@@ -287,20 +313,21 @@
   margin: 0 auto;
 }
 #profile #sec2 ul h3{
+  font-weight: bold;
   padding: 25px 40px;
 }
 #profile #sec2 ul li {
   float: left;
   width: 120px;
   height: 200px;
-  margin: 0 30px 30px 30px;
   list-style: none;
+  margin: 0 30px 30px 30px;
 }
 #profile #sec2 ul li a {
+  position: relative;
   display: inline-block;
   width: 120px;
   height: 120px;
-  position: relative;
 }
 #profile #sec2 ul li a div {
   position: absolute;
@@ -308,8 +335,8 @@
   width: 120px;
   height: 120px;
   opacity: 0;
-  transition: all 0.3s;
   border-radius: 5px;
+  transition: all 0.3s;
 }
 #profile #sec2 ul li a img {
   width: 120px;
@@ -334,8 +361,8 @@
   z-index: 5;
 }
 #profile #sec2 ul li p.name {
-  text-align: center;
   font-weight: bold;
+  text-align: center;
   margin: 17.5px 0;
 }
 #profile #sec2 ul li p.lang {
@@ -346,7 +373,7 @@
 /* side */
 .fixed {
   position: fixed;
-  top: 0;
+  top: 0; left: 0;
   z-index: 20;
   width: 100%;
   height: 75px;
@@ -362,6 +389,7 @@
   width: 75px;
   height: 75px;
   font-size: 40px;
+  font-weight: bold;
   line-height: 75px;
   text-align: center;
 }
@@ -385,8 +413,8 @@
   position: absolute;
   right: 22.5px;
   width: 30px; height: 4px;
-  background-color: #333;
   border-radius: 10px;
+  background-color: #333;
 }
 .fixed .menu-trigger span:nth-child(1) {
   top: 22px;
@@ -411,12 +439,12 @@
 #side {
   position: fixed;
   top: 0; right: 0;
+  z-index: 15;
   width: 0;
   height: 100%;
-  z-index: 15;
-  background-color: #f2f2f2;
   overflow-x: hidden;
   transition: 0.5s;
+  background-color: #f2f2f2;
 }
 #side a {
   display: inline-block;
@@ -424,11 +452,71 @@
   height: calc(100% / 4);
   font-size: 40px;
   color: #333333;
-  text-align: center;
   font-weight: bold;
+  text-align: center;
   text-decoration: none;
   transition: 0.5s;
 }
 #side a:hover {
   color: #5099e2;
+}
+
+/* footer */
+#footer {
+  clear: both;
+  width: 100%;
+  height: 300px;
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+#footer > h3 {
+  color: #5099e2;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+  word-spacing: 5px;
+  letter-spacing: 1.5px;
+}
+#footer > p {
+  color: #666666;
+  font-size: 15px;
+  text-align: center;
+  margin: 15px 0 50px 0;
+  letter-spacing: 0.5px;
+}
+#footer ul {
+  width: 600px;
+  height: 60px;
+  margin: 0 auto;
+}
+#footer ul li {
+  float: left;
+  width: 300px;
+  height: 100%;
+  list-style: none;
+}
+#footer ul li a {
+  display: inline-block;
+  width: 300px;
+  height: 100%;
+  text-decoration: none;
+}
+#footer ul li a div {
+  float: left;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  margin-right: 15px;
+  border-radius: 100px;
+  background-color: #5099e2;
+}
+#footer ul li a div img {
+  width: 30px;
+  height: 30px;
+}
+#footer ul li a p {
+  color: #333;
+  font-size: 18px;
+  line-height: 60px;
 }
