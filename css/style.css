@@ -183,6 +183,7 @@
   font-size: 34px;
   font-weight: bold;
   letter-spacing: 5px;
+  margin: 0;
 }
 #about #sec4 ul li p.title {
   opacity: 0.7;
