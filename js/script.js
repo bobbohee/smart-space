@@ -10,12 +10,10 @@ $(function() {
 
   /* project */
   var pjList =  $('#project #sec2 ul li');
-  for (let i = 0; i < pjList.length; i++) {
-    var pjImg = $(pjList[i]).children('a').children('img').height();
+  for (var i = 0; i < pjList.length; i++) {
+    var height = $(pjList[i]).children('a').children('img').height();
 
-    $(pjList[i]).height(pjImg);
-    $(pjList[i]).children('a').height(pjImg);
-    $(pjList[i]).children('a').children('.pjBg').height(pjImg);
+    $(pjList[i]).height(height);
   }
 });
 
