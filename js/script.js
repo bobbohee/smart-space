@@ -5,16 +5,8 @@ $(function() {
     $this.on('click', function (e) {
       e.preventDefault();
       $(this).toggleClass('active-' + (index + 1));
-    })
+    });
   });
-
-  /* project */
-  var pjList =  $('#project #sec2 ul li');
-  for (var i = 0; i < pjList.length; i++) {
-    var height = $(pjList[i]).children('a').children('img').height();
-
-    $(pjList[i]).height(height);
-  }
 });
 
 /* 햄버거 메뉴 사이드 */

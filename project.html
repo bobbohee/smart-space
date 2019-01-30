@@ -233,5 +233,14 @@
     </div>
   </div>
   <script src="js/script.js"></script>
+  <script>
+    var pjList =  $('#project #sec2 ul li');
+    (function list() {
+      for (var i = 0; i < pjList.length; i++) {
+        var height = $(pjList[i]).children('a').children('img').height();
+        $(pjList[i]).height(height);
+      }
+    }());
+  </script>
 </body>
 </html>
