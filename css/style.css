@@ -290,40 +290,41 @@
 }
 #about #sec6 table thead {
   background-color: #5099e250;
-}
+} 
 
 /* project */
 #project #sec1 {
   width: 100%;
-  height: 200px;
+  min-height: 120px;
   margin-top: 75px;
 }
 #project #sec1 .ver {
-  width: 6px;
-  height: 75px;
+  width: 1.5vw;
+  height: 7.5vh;
   margin: 0 auto;
   border-radius: 20px;
   background-color: #ffdd00;
 }
 #project #sec1 h2 {
   color: #ffdd00;
-  font-size: 60px;
+  font-size: 15.625vw;
+  /* (50px * 100) / 320 */
   font-weight: bold;
   text-align: center;
-  margin: 20px 0;
+  margin: 20px 0 0 0;
 }
 #project #sec2 {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 #project #sec2 ul.pjList {
-  float: left;
-  width: 370px;
-  margin: 0 15px;
+  width: 90.625vw;
+  /* (290px * 100) / 320 */
+  margin: 0 auto;
 }
 #project #sec2 ul.pjList li {
   width: 100%;
-  margin: 30px 0;
+  margin: 15px 0;
   list-style: none;
 }
 #project #sec2 ul.pjList li a {
@@ -333,43 +334,15 @@
   height: 100%;
   text-decoration: none;
 }
-#project #sec2 ul.pjList li a:hover div.pjTitle {
-  opacity: 1;
-}
-#project #sec2 ul.pjList li a:hover div.pjBg {
-  opacity: 0.75;
-}
 #project #sec2 ul.pjList li a div.pjTitle {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-  opacity: 0;
-  width: 100%;
-  height: 75px;
-  color: #fff;
-  line-height: 40px;
-  text-align: center;
-}
-#project #sec2 ul.pjList li a div.pjTitle h3 {
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 1.5px;
+  display: none;
 }
 #project #sec2 ul.pjList li a div.pjBg {
-  position: absolute;
-  top: 0; left: 0;
-  z-index: 5;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all 0.3s;
-  background-color: #000;
+  display: none;
 }
 #project #sec2 ul.pjList li a img {
-  position: absolute;
-  top: 0; left: 0;
   width: 100%;
+  height: auto;
 }
 
 /* profile */
