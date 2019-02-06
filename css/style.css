@@ -348,19 +348,20 @@
 /* profile */
 #profile #sec1 {
   width: 100%;
-  height: 200px;
+  min-height: 120px;
   margin-top: 75px;
 }
 #profile #sec1 .ver {
-  width: 6px;
-  height: 75px;
+  width: 1.5vw;
+  height: 7.5vh;
   margin: 0 auto;
   border-radius: 20px;
   background-color: #ffdd00;
 }
 #profile #sec1 h2 {
   color: #ffdd00;
-  font-size: 60px;
+  font-size: 15.625vw;
+  /* (50px * 100) / 320 */
   font-weight: bold;
   text-align: center;
   margin: 20px 0;
@@ -370,16 +371,19 @@
   height: 830px;
 }
 #profile #sec2 ul {
-  width: 1260px;
+  width: 320px;
+  height: 100%;
   margin: 0 auto;
 }
 #profile #sec2 ul h3 {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
+  font-weight: bold;
+  padding: 20px 30px;
 }
 #profile #sec2 .profile-17 {
   width: 100%;
-  height: 300px;
+  height: 940px;
   background-color: #f2f2f2;
 }
 #profile #sec2 .profile-17 ul {
@@ -388,23 +392,19 @@
 }
 #profile #sec2 .profile-18 {
   width: 100%;
-  height: 530px;
+  height: 640px;
   background-color: #fff;
 }
 #profile #sec2 .profile-18 ul {
   background-color: #fff;
   height: 100%;
 }
-#profile #sec2 ul h3{
-  font-weight: bold;
-  padding: 25px 40px;
-}
 #profile #sec2 ul li {
   float: left;
   width: 120px;
   height: 200px;
   list-style: none;
-  margin: 0 30px 30px 30px;
+  margin: 0 20px 20px 20px;
 }
 #profile #sec2 ul li a {
   position: relative;
@@ -444,12 +444,13 @@
   z-index: 5;
 }
 #profile #sec2 ul li p.name {
+  font-size: 15px;
   font-weight: bold;
   text-align: center;
   margin: 17.5px 0;
 }
 #profile #sec2 ul li p.lang {
-  font-size: 15px;
+  font-size: 13px;
   text-align: center;
   margin: 0;
 }
