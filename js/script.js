@@ -20,6 +20,9 @@ function openSide() {
     'opacity': '1',
     'line-height': height
   });
+  $('.fixed').css({
+    'background-color': 'transparent'
+  });
   $('.menu-trigger').attr('onclick', 'closeSide()');
 }
 
@@ -29,5 +32,11 @@ function closeSide() {
     'padding': '0'
   });
   $('#side a').css({'opacity': '0'});
+  $('.fixed').css({
+    'background-color': '#fff'
+  });
+  $('#index .fixed').css({
+    'background-color': 'transparent'
+  });
   $('.menu-trigger').attr('onclick', 'openSide()');
 }
