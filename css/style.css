@@ -52,16 +52,16 @@
   padding: 0 20px;
 }
 #index #sec2 .ver {
-  width: 5px;
-  height: 45px;
+  width: 1.5vw;
+  height: 10vh;
   margin: 0 auto;
   border-radius: 20px;
   background-color: #ffdd00;
 }
 #index #sec2 .hor {
   clear: both;
-  width: 100px;
-  height: 5px;
+  width: 10vh;
+  height: 1.5vw;
   border-radius: 20px;
   background-color: #666;
   margin: 1.5vh auto;
@@ -554,7 +554,8 @@
   display: inline-block;
   width: 100%;
   height: calc(100% / 4);
-  font-size: 40px;
+  font-size: 9.375vw;
+  /* (30px * 100) / 320 */
   color: #333333;
   font-weight: bold;
   text-align: center;
