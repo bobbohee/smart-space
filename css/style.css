@@ -335,14 +335,42 @@
   text-decoration: none;
 }
 #project #sec2 ul.pjList li a div.pjTitle {
-  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  opacity: 0;
+  width: 100%;
+  height: 75px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+}
+#project #sec2 ul.pjList li a:hover div.pjTitle {
+  opacity: 1;
+}
+#project #sec2 ul.pjList li a div.pjTitle h3 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
 }
 #project #sec2 ul.pjList li a div.pjBg {
-  display: none;
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.3s;
+  background-color: #000;
+}
+#project #sec2 ul.pjList li a:hover div.pjBg {
+  opacity: 0.75;
 }
 #project #sec2 ul.pjList li a img {
+  position: absolute;
+  top: 0; left: 0;
   width: 100%;
-  height: auto;
 }
 
 /* profile */
@@ -368,7 +396,7 @@
 }
 #profile #sec2 {
   width: 100%;
-  height: 830px;
+  height: 1880px;
 }
 #profile #sec2 ul {
   width: 320px;
@@ -392,7 +420,7 @@
 }
 #profile #sec2 .profile-18 {
   width: 100%;
-  height: 640px;
+  height: 940px;
   background-color: #fff;
 }
 #profile #sec2 .profile-18 ul {
