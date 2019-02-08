@@ -951,367 +951,167 @@
 
 /* pc */
 @media all and (min-width:1280px) {
+  /* index */
+  #index #sec1 h1 {
+    font-size: 100px;
+  }
+  #index #sec2 p {
+    font-size: 2.3vh;
+    line-height: 6vh;
+  }
+  #index #sec2 p br {
+    display: block;
+  }
+  #index #sec2 a {
+    width: 54vh;
+  }
+
   /* about */
   #about #sec1 {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     margin-top: 75px;
   }
   #about #sec1 .ver {
-    width: 6px;
-    height: 75px;
-    margin: 0 auto;
-    border-radius: 20px;
-    background-color: #ffdd00;
+    width: 7.5px;
   }
   #about #sec1 h2 {
-    color: #ffdd00;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-    margin: 20px 0;
+    font-size: 70px;
+    margin: 3vh 0;
   }
   #about #sec2 {
-    width: 100%;
-    height: 530px;
-    margin: 50px 0;
+    height: 39.0625vw;
+    /* (500px * 100) / 1280 */
+    margin: 5vh 0;
   }
   #about .team {
-    width: 900px;
-    height: 100%;
-    margin: 0 auto;
+    width: 70.3125vw;
+    /* (900px * 100) / 1280 */
   }
   #about .team p {
-    float: left;
-    width: 200px;
-    height: 100%;
     font-size: 36px;
-    text-align: right;
-    line-height: 80px;
-    padding: 190px 80px 190px 0;
   }
   #about .team img {
-    float: left;
-    width: 700px;
-    height: 100%;
+    width: 54.6875vw;
+    /* (700px * 100) / 1280 */
   }
   #about #sec3 {
-    width: 100%;
-    height: 500px;
-    background-color: #f2f2f2;
+    height: 39.0625vw;
+    /* (500px * 100) / 1280 */
   }
   #about #sec3 div {
-    width: 900px;
-    height: 500px;
-    margin: 0 auto;
-  }
-  #about #sec3 div {
-    width: 900px;
-    height: 500px;
+    width: 70%;
   }
   #about #sec4 {
-    position: relative;
-    width: 100%;
     height: 300px;
-    overflow: hidden;
-  }
-  #about #sec4 .sec4-bg {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../img/about/backgroud.jpg');
-    background-position: center center;
-    background-size: 100%;
-  }
-  #about #sec4 .sec4-black {
-    position: absolute;
-    top: 0; left: 0;
-    z-index: 5;
-    width: 100%;
-    height: 100%;
-    opacity: 0.7;
-    background-color: #000;
   }
   #about #sec4 ul {
-    position: relative;
-    z-index: 10;
-    width: 1200px;
+    width: 93.75vw;
+    /* (1200px * 100) / 1280 */
     height: 120px;
     margin: 90px auto;
   }
   #about #sec4 ul li {
-    width: 400px;
-    height: 100%;
-    float: left;
-    list-style: none;
-    text-align: center;
     line-height: 60px;
-    border-right: 1.5px solid rgba(255, 255, 255, 0.7);
-  }
-  #about #sec4 ul li:last-child {
-    border: 0;
   }
   #about #sec4 ul li p {
-    opacity: 1;
-    color: #fff;
-    font-size: 34px;
-    font-weight: bold;
-    letter-spacing: 5px;
-    margin: 0;
+    font-size: 28px;
   }
   #about #sec4 ul li p.title {
-    opacity: 0.7;
     font-size: 22px;
-    font-weight: normal;
   }
   #about #sec5 {
-    width: 100%;
-    height: 500px;
-    background-color: #f2f2f2;
+    height: 450px;
   }
   #about #sec5 ul {
     width: 1050px;
-    height: 500px;
-    margin: 0 auto;
   }
   #about #sec5 ul li {
-    float: left;
-    width: 350px;
-    height: 500px;
-    list-style: none;
-    padding: 95px 50px;
-    text-align: center;
+    padding: 60px 50px;
   }
   #about #sec5 ul li div {
     width: 150px;
     height: 150px;
     padding: 20px;
-    margin: 0 50px;
-    border-radius: 100px;
-    border: 1.5px solid #333;
   }
   #about #sec5 ul li:last-child div {
     padding: 31px;
   }
   #about #sec5 ul li h3 {
     margin: 30px 0;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 1px;
+    font-size: 21px;
   }
   #about #sec5 ul li p {
-    font-size: 17px;
-    line-height: 28px;
+    font-size: 17.5px;
+    line-height: 30px;
   }
   #about #sec6 {
     width: 100%;
     height: 500px;
-    padding: 60px 0;
+    padding: 5vw 0;
   }
   #about #sec6 .table {
-    width: 60%;
-    max-height: 500px;
-    margin: 0 auto;
+    width: 70%;
+    font-size: 17px;
   }
   #about #sec6 .table caption {
-    color: #333;
     font-size: 18px;
-    font-weight: bold;
-    padding: 15px;
-    caption-side: top;
-  }
-  #about #sec6 .table thead {
-    background-color: #5099e250;
   }
 
   /* project */
   #project #sec1 {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     margin-top: 75px;
   }
   #project #sec1 .ver {
-    width: 6px;
-    height: 75px;
-    margin: 0 auto;
-    border-radius: 20px;
-    background-color: #ffdd00;
+    width: 7.5px;
   }
   #project #sec1 h2 {
-    color: #ffdd00;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-    margin: 20px 0;
+    font-size: 70px;
+    margin: 3vh 0;
   }
   #project #sec2 {
     width: 1200px;
-    margin: 0 auto;
   }
   #project #sec2 ul.pjList {
-    float: left;
     width: 370px;
     margin: 0 15px;
-  }
-  #project #sec2 ul.pjList li {
-    width: 100%;
-    margin: 30px 0;
-    list-style: none;
-  }
-  #project #sec2 ul.pjList li a {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-  }
-  #project #sec2 ul.pjList li a:hover div.pjTitle {
-    opacity: 1;
-  }
-  #project #sec2 ul.pjList li a:hover div.pjBg {
-    opacity: 0.75;
-  }
-  #project #sec2 ul.pjList li a div.pjTitle {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
-    opacity: 0;
-    width: 100%;
-    height: 75px;
-    color: #fff;
-    line-height: 40px;
-    text-align: center;
-  }
-  #project #sec2 ul.pjList li a div.pjTitle h3 {
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-  }
-  #project #sec2 ul.pjList li a div.pjBg {
-    position: absolute;
-    top: 0; left: 0;
-    z-index: 5;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all 0.3s;
-    background-color: #000;
-  }
-  #project #sec2 ul.pjList li a img {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
   }
 
   /* profile */
   #profile #sec1 {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     margin-top: 75px;
   }
   #profile #sec1 .ver {
-    width: 6px;
-    height: 75px;
-    margin: 0 auto;
-    border-radius: 20px;
-    background-color: #ffdd00;
+    width: 7.5px;
   }
   #profile #sec1 h2 {
-    color: #ffdd00;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-    margin: 20px 0;
+    font-size: 70px;
+    margin: 3vh 0;
   }
   #profile #sec2 {
-    width: 100%;
     height: 830px;
   }
   #profile #sec2 ul {
     width: 1260px;
-    margin: 0 auto;
   }
   #profile #sec2 ul h3 {
-    font-size: 18px;
-    margin: 0;
-  }
-  #profile #sec2 .profile-17 {
-    width: 100%;
-    height: 300px;
-    background-color: #f2f2f2;
-  }
-  #profile #sec2 .profile-17 ul {
-    background-color: #f2f2f2;
-    height: 100%;
-  }
-  #profile #sec2 .profile-18 {
-    width: 100%;
-    height: 530px;
-    background-color: #fff;
-  }
-  #profile #sec2 .profile-18 ul {
-    background-color: #fff;
-    height: 100%;
-  }
-  #profile #sec2 ul h3{
-    font-weight: bold;
     padding: 25px 40px;
   }
-  #profile #sec2 ul li {
-    float: left;
-    width: 120px;
-    height: 200px;
-    list-style: none;
-    margin: 0 30px 30px 30px;
+  #profile #sec2 .profile-17 {
+    height: 300px;
   }
-  #profile #sec2 ul li a {
-    position: relative;
-    display: inline-block;
-    width: 120px;
-    height: 120px;
-  }
-  #profile #sec2 ul li a div {
-    position: absolute;
-    top: 0; left: 0;
-    width: 120px;
-    height: 120px;
-    opacity: 0;
-    border-radius: 5px;
-    transition: all 0.3s;
-  }
-  #profile #sec2 ul li a img {
-    width: 120px;
-    height: 120px;
-    border-radius: 5px;
-  }
-  #profile #sec2 ul li a img.github-img {
-    position: absolute;
-    top: 0; left: 0;
-    width: 55px;
-    height: 55px;
-    opacity: 0;
-    margin: 32.5px;
-    transition: all 0.3s;
-  }
-  #profile #sec2 ul li a:hover div {
-    opacity: 0.75;
-    background-color: #000;
-  }
-  #profile #sec2 ul li a:hover img.github-img {
-    opacity: 1;
-    z-index: 5;
+  #profile #sec2 .profile-18 {
+    height: 530px;
   }
   #profile #sec2 ul li p.name {
-    font-weight: bold;
-    text-align: center;
-    margin: 17.5px 0;
+    font-size: 16.5px;
   }
   #profile #sec2 ul li p.lang {
-    font-size: 15px;
-    text-align: center;
-    margin: 0;
+    font-size: 15.5px;
   }
 
   /* side */
@@ -1380,87 +1180,44 @@
     -webkit-transform: translateY(-12px) rotate(45deg);
     transform: translateY(-12px) rotate(45deg);
   }
-  #side {
-    position: fixed;
-    top: 0; right: 0;
-    z-index: 15;
-    width: 0;
-    height: 100%;
-    overflow-x: hidden;
-    transition: 0.5s;
-    background-color: #f2f2f2;
-  }
   #side a {
-    display: inline-block;
-    width: 100%;
-    height: calc(100% / 4);
-    font-size: 40px;
-    color: #333333;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    transition: 0.5s;
-  }
-  #side a:hover {
-    color: #5099e2;
+    font-size: 42px;
   }
 
   /* footer */
   #footer {
-    clear: both;
-    width: 100%;
-    height: 300px;
-    padding: 50px;
-    background-color: #f2f2f2;
+    height: 250px;
+    padding: 30px;
   }
   #footer > h3 {
-    color: #5099e2;
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 40px;
     line-height: 50px;
-    text-align: center;
     word-spacing: 5px;
     letter-spacing: 1.5px;
   }
   #footer > p {
-    color: #666666;
-    font-size: 15px;
-    text-align: center;
-    margin: 15px 0 50px 0;
+    font-size: 16px;
+    margin: 30px 0;
     letter-spacing: 0.5px;
   }
   #footer ul {
     width: 600px;
     height: 60px;
-    margin: 0 auto;
   }
   #footer ul li {
-    float: left;
     width: 300px;
-    height: 100%;
-    list-style: none;
-  }
-  #footer ul li a {
-    display: inline-block;
-    width: 300px;
-    height: 100%;
-    text-decoration: none;
   }
   #footer ul li a div {
-    float: left;
     width: 60px;
     height: 60px;
-    padding: 15px;
-    margin-right: 15px;
-    border-radius: 100px;
-    background-color: #5099e2;
+    margin-right: 20px;
   }
   #footer ul li a div img {
     width: 30px;
     height: 30px;
+    margin: 15px;
   }
   #footer ul li a p {
-    color: #333;
     font-size: 18px;
     line-height: 60px;
   }
