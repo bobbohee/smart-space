@@ -13,9 +13,9 @@ $(function() {
 function openSide() {
   $('#side').css({
     'width': '100%',
-    'padding': '75px'
+    'padding': '100px'
   });
-  var height = $('#side a').height() - 37.5 + 'px';
+  var height = $('#side a').height() - 50 + 'px';
   $('#side a').css({
     'opacity': '1',
     'line-height': height
