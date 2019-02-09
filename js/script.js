@@ -1,3 +1,12 @@
+/* loading */
+$(window).on('load', function() {
+  $('.load').animate({
+    'opacity': 0
+  }, 1000, function() {
+    $(this).hide();
+  });
+});
+
 $(function() {
   /* 햄버거 메뉴 */
   $('.menu-trigger').each(function (index) {
