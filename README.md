@@ -28,7 +28,7 @@
 
 result smart space promotion website
 
-<img src="/img/readme/main.png" width="100%" />
+<img src="https://github.com/park-bohee/smart-space/blob/master/img/readme/main.PNG" width="100%" alt="v1-main-img"/>
 
 ## DEVELOPER
 
