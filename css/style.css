@@ -10,10 +10,11 @@
   background-color: transparent;
 }
 #index #sec1 {
+  position: relative;
   width: 100%;
   height: 100%;
 }
-#index .intro-bg {
+#index #sec1 .intro-bg {
   position: absolute;
   width: 100%;
   height: 100%;
