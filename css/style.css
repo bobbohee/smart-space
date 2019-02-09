@@ -663,6 +663,9 @@
   #index #sec2 p br {
     display: none;
   }
+  #index #sec2 p br.br {
+    display: block;
+  }
   #index #sec2 a {
     width: 52vh;
     height: 60px;
