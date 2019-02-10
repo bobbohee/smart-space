@@ -22,9 +22,9 @@ $(function() {
 function openSide() {
   $('#side').css({
     'width': '100%',
-    'padding': '100px'
+    'padding': '75px'
   });
-  var height = $('#side a').height() - 50 + 'px';
+  var height = $('#side a').height() - 37.5 + 'px';
   $('#side a').css({
     'opacity': '1',
     'line-height': height
