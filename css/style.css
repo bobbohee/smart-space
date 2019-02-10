@@ -1067,7 +1067,7 @@
     font-size: 100px;
   }
   #index #sec2 p {
-    font-size: 2.3vh;
+    font-size: 18px;
     line-height: 6vh;
   }
   #index #sec2 p br {
@@ -1077,7 +1077,7 @@
     display: block;
   }
   #index #sec2 a {
-    width: 54vh;
+    width: 420px;
   }
 
   /* about */
@@ -1104,7 +1104,7 @@
     font-size: 36px;
   }
   #about .team img {
-    width: 800px;
+    width: 750px;
   }
   #about #sec3 {
     height: 450px;
@@ -1158,12 +1158,12 @@
   }
   #about #sec6 {
     width: 100%;
-    height: 500px;
-    padding: 5vw 0;
+    min-height: 450px;
+    padding: 50px 0;
   }
   #about #sec6 .table {
     width: 70%;
-    max-width: 1200px;
+    max-width: 1100px;
     font-size: 17px;
   }
   #about #sec6 .table caption {
@@ -1239,7 +1239,7 @@
   }
   #footer > p {
     font-size: 16px;
-    margin: 30px 0;
+    margin: 25px 0;
     letter-spacing: 0.5px;
   }
   #footer ul {
