@@ -745,16 +745,19 @@
     margin: 3vh 0;
   }
   #index #sec2 p {
-    font-size: 2.2vh;
+    font-size: 17px;
     line-height: 6.2vh;
     letter-spacing: 1px;
     text-align: center;
+  }
+  #index #sec2 p br.notbr {
+    display: block;
   }
   #index #sec2 p br.br {
     display: block;
   }
   #index #sec2 a {
-    width: 52vh;
+    width: 400px;
     height: 60px;
   }
   #index #sec2 a p {
