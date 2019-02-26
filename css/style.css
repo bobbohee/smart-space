@@ -75,7 +75,7 @@
 }
 #index #sec2 p {
   color: #333;
-  font-size: 2vh;
+  font-size: 1.8vh;
   line-height: 9.5vw;
   letter-spacing: 0.25px;
 }
@@ -85,26 +85,31 @@
 #index #sec2 a {
   display: block;
   width: 44.5vh;
-  height: 40px; 
+  height: 30px; 
   margin: 0 auto;
   color: #2e2e2e;
   text-decoration: none;
 }
 #index #sec2 a p {
   float: left;
-  line-height: 40px;
+  line-height: 30px;
 }
-#index #sec2 a div {
-  float: left;
-  width: 40px;
-  height: 40px;
+#index #sec2 a p::after {
+  display: inline-block;
+  content: "→";
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
   margin: 0 0 0 10px;
-  line-height: 40px;
+  line-height: 30px;
+  text-align: center;
   border-radius: 100px;
   transition: all 0.5s;
   background-color: #7bb3ea;
 }
-#index #sec2 a div:hover {
+#index #sec2 a p:hover::after {
   transform: scale(1.1, 1.1);
   background-color: #65a6e6;
 }
@@ -767,20 +772,17 @@
   }
   #index #sec2 a {
     width: 400px;
-    height: 60px;
+    height: 50px;
   }
   #index #sec2 a p {
-    line-height: 60px;
+    line-height: 50px;
   }
-  #index #sec2 a div {
-    width: 60px;
-    height: 60px; 
+  #index #sec2 a p::after {
+    width: 50px;
+    height: 50px; 
+    font-size: 26px;
+    line-height: 50px;
     margin: 0 0 0 20px;
-  }
-  #index #sec2 a div img {
-    width: 30px;
-    height: 30px;
-    margin: 15px;
   }
 
   /* about */
