@@ -447,11 +447,20 @@
 }
 #profile #sec2 .profile-18 {
   width: 100%;
-  height: 940px;
+  height: 280px;
   background-color: #fff;
 }
 #profile #sec2 .profile-18 ul {
   background-color: #fff;
+  height: 100%;
+}
+#profile #sec2 .profile-19 {
+  width: 100%;
+  height: 1380px;
+  background-color: #f2f2f2;
+}
+#profile #sec2 .profile-19 ul {
+  background-color: #f2f2f2;
   height: 100%;
 }
 #profile #sec2 ul li {
@@ -517,6 +526,9 @@
   height: 180px;
   padding: 20px 15px;
   background-color: #f2f2f2;
+}
+.footer-white {
+  background-color: #fff !important;
 }
 #footer > h3 {
   margin: 0;
@@ -962,7 +974,10 @@
     height: 530px;
   }
   #profile #sec2 .profile-18 {
-    height: 530px;
+    height: 300px;
+  }
+  #profile #sec2 .profile-19 {
+    height: 760px;
   }
   #profile #sec2 ul li {
     margin: 0 30px 30px 30px;
@@ -1234,6 +1249,9 @@
     height: 300px;
   }
   #profile #sec2 .profile-18 {
+    height: 300px;
+  }
+  #profile #sec2 .profile-19 {
     height: 530px;
   }
   #profile #sec2 ul li p.name {
