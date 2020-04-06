@@ -2,257 +2,262 @@
 <!DOCTYPE html>
 <html lang="ko" dir="ltr">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SMART SPACE</title>
-  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-  <link rel="manifest" href="img/favicon/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="static/src/image/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>SMART SPACE</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="static/src/image/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/src/image/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/src/image/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/src/image/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/src/image/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/src/image/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/src/image/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/src/image/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/src/image/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="static/src/image/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/src/image/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/src/image/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/src/image/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/src/image/favicon/manifest.json">
+    <link rel="stylesheet" href="static/lib/nanumgothic/nanumgothic.css"/>
+    <link rel="stylesheet" href="static/lib/fullpage-3.0.4/fullpage.min.css"/>
+    <link rel="stylesheet" href="static/lib/bootstrap-4.4.1/bootstrap.min.css"/>
+    <link rel="stylesheet" href="static/src/css/style.css"/>
+    <script type="text/javascript" src="static/lib/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="static/lib/fullpage-3.0.4/fullpage.min.js"></script>
 </head>
 <body onload="list();">
-  <div class="load">
+<div class="load">
     <div class="loader">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
-  </div>
-  <div id="project">
+</div>
+<div id="project">
     <div class="fixed">
-      <div class="logo">
-        <h1>
-          <a href="index.html">SS</a>
-        </h1>
-      </div>
-      <a href="#" class="menu-trigger" onclick="openSide()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
+        <div class="logo">
+            <h1>
+                <a href="index.html">SS</a>
+            </h1>
+        </div>
+        <a href="#" class="menu-trigger" onclick="openSide()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
     </div>
     <div id="side">
-      <a href="index.html">HOME</a>
-      <a href="about.html">ABOUT</a>
-      <a href="project.html">PROJECT</a>
-      <a href="profile.html">PROFILE</a>
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="project.html">PROJECT</a>
+        <a href="profile.html">PROFILE</a>
     </div>
     <div id="sec1">
-      <div class="ver"></div>
-      <h2>PROJECT</h2>
+        <div class="ver"></div>
+        <h2>PROJECT</h2>
     </div>
     <div id="sec2">
-      <ul class="pjList pjList3">
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2017/1702/find-dog" target="_blank">
-            <div class="pjTitle">
-              <h3>강아지풀</h3>
-              <p>유기견 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2017/1702-finddog.jpg" alt="project-img">
-          </a>
-        </li>
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2018/1804/twilight-events" target="_blank">
-            <div class="pjTitle">
-              <h3>twilight events</h3>
-              <p>twilight events 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2018/1804-twilight-events.PNG" alt="project-img">
-          </a>
-        </li>
-        <li>
-          <a href="https://lovekukwithhan.github.io/CopperBay_Cover" target="_blank">
-            <div class="pjTitle">
-              <h3>copper bay</h3>
-              <p>copper bay 모작 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2018/1803-copperbay.jpg" alt="project-img">
-          </a>
-        </li>
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2018/1810/nude" target="_blank">
-            <div class="pjTitle">
-              <h3>nude</h3>
-              <p>화장품 쇼핑몰 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2018/1810-wood.jpg" alt="project-img">
-          </a>
-        </li>
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2017/1723/pixar" target="_blank">
-            <div class="pjTitle">
-              <h3>pixar</h3>
-              <p>pixar 모작 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2017/1723-pixar.jpg" alt="project-img">
-          </a>
-        </li>
-      </ul>
-      <ul class="pjList pjList3">
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2017/1703/cu" target="_blank">
-            <div class="pjTitle">
-              <h3>cu</h3>
-              <p>cu 모방 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2017/1703-cu.png" alt="project-img">
-          </a>
-        </li>
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2018/1807/ambits" target="_blank">
-            <div class="pjTitle">
-              <h3>ambits</h3>
-              <p>헤드셋 판매 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2018/1807-ambits.PNG" alt="project-img">
-          </a>
-        </li>
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2018/1813/%EB%B6%80%EC%97%AC%20%EA%B0%80%EC%9D%84%EC%97%B0%EA%BD%83%EC%B6%95%EC%A0%9C" target="_blank">
-            <div class="pjTitle">
-              <h3>부여 가을연꽃축제</h3>
-              <p>웹디자인실기 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2018/1813-부여 가을연꽃축제.jpg" alt="project-img">
-          </a>
-        </li>
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2018/1818/ceramic-studio" target="_blank">
-            <div class="pjTitle">
-              <h3>ceramic studio</h3>
-              <p>도자기 판매 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2018/1818-ceramic studio.jpg" alt="project-img">
-          </a>
-        </li>
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2018/1802/travle" target="_blank">
-            <div class="pjTitle">
-              <h3>travle</h3>
-              <p>관광지 안내 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2018/1802-travle.jpg" alt="project-img">
-          </a>
-        </li>
-      </ul>
-      <ul class="pjList pjList3">
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2017/1720/shinmorae" target="_blank">
-            <div class="pjTitle">
-              <h3>shinmorae</h3>
-              <p>shinmorae 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2017/1720-shinmorae.jpg" alt="project-img">
-          </a>
-        </li>
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2018/1815/car" target="_blank">
-            <div class="pjTitle">
-              <h3>auto express</h3>
-              <p>자동차 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2018/1815-car.jpg" alt="project-img">
-          </a>
-        </li>
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2017/1710/woowahan" target="_blank">
-            <div class="pjTitle">
-              <h3>우아한 형제들</h3>
-              <p>우아한 형제들 모작 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2017/1710-우아한 형제들.jpg" alt="project-img">
-          </a>
-        </li>
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2017/1701/seventeen" target="_blank">
-            <div class="pjTitle">
-              <h3>seventeen</h3>
-              <p>seventeen 모작 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2017/1701-seventeen.jpg" alt="project-img">
-          </a>
-        </li>
-        <li>
-          <a href="http://smartspacephp.cafe24.com/server/2017/1704/line-friends" target="_blank">
-            <div class="pjTitle">
-              <h3>line friends</h3>
-              <p>라인프렌즈 쇼핑 사이트</p>
-            </div>
-            <div class="pjBg"></div>
-            <img src="img/project/2017/1704-line friends.jpg" alt="project-img">
-          </a>
-        </li>
-      </ul>
+        <ul class="pjList pjList3">
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2017/1702/find-dog" target="_blank">
+                    <div class="pjTitle">
+                        <h3>강아지풀</h3>
+                        <p>유기견 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2017/1702-finddog.jpg" alt="project-img">
+                </a>
+            </li>
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2018/1804/twilight-events" target="_blank">
+                    <div class="pjTitle">
+                        <h3>twilight events</h3>
+                        <p>twilight events 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2018/1804-twilight-events.PNG" alt="project-img">
+                </a>
+            </li>
+            <li>
+                <a href="https://lovekukwithhan.github.io/CopperBay_Cover" target="_blank">
+                    <div class="pjTitle">
+                        <h3>copper bay</h3>
+                        <p>copper bay 모작 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2018/1803-copperbay.jpg" alt="project-img">
+                </a>
+            </li>
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2018/1810/nude" target="_blank">
+                    <div class="pjTitle">
+                        <h3>nude</h3>
+                        <p>화장품 쇼핑몰 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2018/1810-wood.jpg" alt="project-img">
+                </a>
+            </li>
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2017/1723/pixar" target="_blank">
+                    <div class="pjTitle">
+                        <h3>pixar</h3>
+                        <p>pixar 모작 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2017/1723-pixar.jpg" alt="project-img">
+                </a>
+            </li>
+        </ul>
+        <ul class="pjList pjList3">
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2017/1703/cu" target="_blank">
+                    <div class="pjTitle">
+                        <h3>cu</h3>
+                        <p>cu 모방 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2017/1703-cu.png" alt="project-img">
+                </a>
+            </li>
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2018/1807/ambits" target="_blank">
+                    <div class="pjTitle">
+                        <h3>ambits</h3>
+                        <p>헤드셋 판매 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2018/1807-ambits.PNG" alt="project-img">
+                </a>
+            </li>
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2018/1813/%EB%B6%80%EC%97%AC%20%EA%B0%80%EC%9D%84%EC%97%B0%EA%BD%83%EC%B6%95%EC%A0%9C"
+                   target="_blank">
+                    <div class="pjTitle">
+                        <h3>부여 가을연꽃축제</h3>
+                        <p>웹디자인실기 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2018/1813-부여 가을연꽃축제.jpg" alt="project-img">
+                </a>
+            </li>
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2018/1818/ceramic-studio" target="_blank">
+                    <div class="pjTitle">
+                        <h3>ceramic studio</h3>
+                        <p>도자기 판매 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2018/1818-ceramic studio.jpg" alt="project-img">
+                </a>
+            </li>
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2018/1802/travle" target="_blank">
+                    <div class="pjTitle">
+                        <h3>travle</h3>
+                        <p>관광지 안내 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2018/1802-travle.jpg" alt="project-img">
+                </a>
+            </li>
+        </ul>
+        <ul class="pjList pjList3">
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2017/1720/shinmorae" target="_blank">
+                    <div class="pjTitle">
+                        <h3>shinmorae</h3>
+                        <p>shinmorae 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2017/1720-shinmorae.jpg" alt="project-img">
+                </a>
+            </li>
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2018/1815/car" target="_blank">
+                    <div class="pjTitle">
+                        <h3>auto express</h3>
+                        <p>자동차 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2018/1815-car.jpg" alt="project-img">
+                </a>
+            </li>
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2017/1710/woowahan" target="_blank">
+                    <div class="pjTitle">
+                        <h3>우아한 형제들</h3>
+                        <p>우아한 형제들 모작 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2017/1710-우아한 형제들.jpg" alt="project-img">
+                </a>
+            </li>
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2017/1701/seventeen" target="_blank">
+                    <div class="pjTitle">
+                        <h3>seventeen</h3>
+                        <p>seventeen 모작 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2017/1701-seventeen.jpg" alt="project-img">
+                </a>
+            </li>
+            <li>
+                <a href="http://smartspacephp.cafe24.com/server/2017/1704/line-friends" target="_blank">
+                    <div class="pjTitle">
+                        <h3>line friends</h3>
+                        <p>라인프렌즈 쇼핑 사이트</p>
+                    </div>
+                    <div class="pjBg"></div>
+                    <img src="static/src/image/project/2017/1704-line friends.jpg" alt="project-img">
+                </a>
+            </li>
+        </ul>
     </div>
     <div id="footer">
-      <h3>Let´s start right now !</h3>
-      <p>'SMART SPACE'와 함께 하고 싶으시다면 연락주세요</p>
-      <p>디자인의 저작권은 <a href="https://nykim.net/">'N'</a> 님에게 있습니다 !</p>   
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/sdhsss">
-            <div>
-              <img src="img/footer/facebook.png" alt="facebook">
-            </div>
-            <p>SDHS Smart Space</p>
-          </a>
-        </li>
-        <li>
-          <a href="mailto:nogcha04@naver.com">
-            <div>
-              <img src="img/footer/email.png" alt="email">
-            </div>
-            <p>nogcha04@naver.com</p>
-          </a>
-        </li>
-      </ul>
+        <h3>Let´s start right now !</h3>
+        <p>'SMART SPACE'와 함께 하고 싶으시다면 연락주세요</p>
+        <p>디자인의 저작권은 <a href="https://nykim.net/">'N'</a> 님에게 있습니다 !</p>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/sdhsss">
+                    <div>
+                        <img src="static/src/image/footer/facebook.png" alt="facebook">
+                    </div>
+                    <p>SDHS Smart Space</p>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:nogcha04@naver.com">
+                    <div>
+                        <img src="static/src/image/footer/email.png" alt="email">
+                    </div>
+                    <p>nogcha04@naver.com</p>
+                </a>
+            </li>
+        </ul>
     </div>
-  </div>
-  <script src="js/script.js"></script>
-  <script>
-    function list() {
-      var pjList =  $('#project #sec2 ul li');
-      for (var i = 0; i < pjList.length; i++) {
-        var height = $(pjList[i]).children('a').children('img').height();
-        $(pjList[i]).height(height);
-      }
-      if (location.href.indexOf('#reload') == -1) {
-        location.href += '#reload'
-      } 
+</div>
+<script type="text/javascript" src="static/src/js/script.js"></script>
+<script type="text/javascript">
+    const list = function() {
+        const pjLists = $('#project #sec2 ul li');
+
+        for (let pjList of pjLists) {
+            const height = $(pjList).children('a').children('img').height();
+            $(pjList).height(height);
+        }
+
+        if (location.href.indexOf('#reload') == -1)
+            location.href += '#reload'
     }
-  </script>
+</script>
 </body>
 </html>

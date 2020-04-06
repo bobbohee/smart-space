@@ -24,13 +24,13 @@
   width: 100%;
   height: 100%;
   z-index: 5;
-  opacity: 0.25;
+  opacity: 0.2;
   background-color: #000;
 }
 #index #sec1 .intro {
   width: 100%;
   height: 100%;
-  background-image: url(../img/index/background.jpg);
+  background-image: url(../image/index/background-v2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 80%;
@@ -41,10 +41,11 @@
   z-index: 10;
   transform: translate(-50%, -50%);
   width: 80%;
-  color: #5099e2;
+  color: #e6e6e6;
   font-size: 55px;
   font-weight: bold;
   text-align: center;
+  text-shadow: 1px 1px 10px #808080;
 }
 #index #sec2 .intro {
   width: 100%;
@@ -192,7 +193,7 @@
   top: 0; left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../img/about/backgroud.jpg');
+  background-image: url('../image/about/backgroud.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 80%;

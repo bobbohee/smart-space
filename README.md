@@ -12,6 +12,8 @@
 
 * [fullpage-3.0.4.css](https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.min.css)
 
+* [bootstrap-4.4.1.css](https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css)
+
 ### JS
 
 * [jquery-3.3.1.min.js](https://code.jquery.com/jquery-3.3.1.min.js)
@@ -24,11 +26,17 @@
 
 ## VERSION
 
-* v1.0 - 2018.12.18 ~ 2019.02.10
+* version 1.0 - 2018.12.18 ~ 2019.02.10
 
 result smart space promotion website
 
-<img src="https://github.com/park-bohee/smart-space/blob/master/img/readme/main.PNG" width="100%" alt="v1-main-img"/>
+<img src="https://github.com/park-bohee/smart-space/blob/master/static/src/image/readme/v1.PNG" width="100%" alt="v1-main-img"/>
+
+* version 2.0 - 2020.04.06
+
+main image and profile update
+
+<img src="https://github.com/park-bohee/smart-space/blob/master/static/src/image/readme/v2.png" width="100%" alt="v2-main-img"/>
 
 ## DEVELOPER
 
